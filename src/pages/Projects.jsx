@@ -1,3 +1,10 @@
+import todoApp from './../img/projects/todo-app.png'
+import shopApp from './../img/projects/shop-app.png'
+import quizGame from './../img/projects/quiz-game.png'
+import colourApp from './../img/projects/colour-app.png'
+import slider from './../img/projects/slider.png'
+import cards from './../img/projects/cards.png'
+
 const Projects = () => {
 	return (
 		<main className='section'>
@@ -6,58 +13,34 @@ const Projects = () => {
 				<ul className='projects'>
 					<li className='project'>
 						<a href='./project-page.html'>
-							<img
-								src='./img/projects/01.jpg'
-								alt='Project img'
-								className='project__img'
-							/>
-							<h3 className='project__title'>Gaming streaming portal</h3>
+							<img src={todoApp} alt='Project img' className='project__img' />
+							<h3 className='project__title'>Todo App</h3>
 						</a>
 					</li>
 					<li className='project'>
 						<a href='./project-page.html'>
-							<img
-								src='./img/projects/02.jpg'
-								alt='Project img'
-								className='project__img'
-							/>
-							<h3 className='project__title'>Video service</h3>
+							<img src={shopApp} alt='Project img' className='project__img' />
+							<h3 className='project__title'>Shop App</h3>
 						</a>
 					</li>
 					<li className='project'>
 						<a href='./project-page.html'>
-							<img
-								src='./img/projects/03.jpg'
-								alt='Project img'
-								className='project__img'
-							/>
-							<h3 className='project__title'>Video portal</h3>
+							<img src={quizGame} alt='Project img' className='project__img' />
+							<h3 className='project__title'>Quiz Game</h3>
 						</a>
 					</li>
 
 					<li className='project'>
-						<img
-							src='./img/projects/04.jpg'
-							alt='Project img'
-							className='project__img'
-						/>
-						<h3 className='project__title'>Dating app</h3>
+						<img src={colourApp} alt='Project img' className='project__img' />
+						<h3 className='project__title'>Colour App</h3>
 					</li>
 					<li className='project'>
-						<img
-							src='./img/projects/05.jpg'
-							alt='Project img'
-							className='project__img'
-						/>
-						<h3 className='project__title'>Landing</h3>
+						<img src={slider} alt='Project img' className='project__img' />
+						<h3 className='project__title'>Slider</h3>
 					</li>
 					<li className='project'>
-						<img
-							src='./img/projects/06.jpg'
-							alt='Project img'
-							className='project__img'
-						/>
-						<h3 className='project__title'>Gaming community</h3>
+						<img src={cards} alt='Project img' className='project__img' />
+						<h3 className='project__title'>Cards</h3>
 					</li>
 				</ul>
 			</div>
