@@ -1,9 +1,9 @@
-import todoApp from './../img/projects/todo-app.png'
 import shopApp from './../img/projects/shop-app.png'
 import quizGame from './../img/projects/quiz-game.png'
 import colourApp from './../img/projects/colour-app.png'
 import slider from './../img/projects/slider.png'
 import cards from './../img/projects/cards.png'
+import Project from '../components/Project/Project'
 
 const Projects = () => {
 	return (
@@ -11,12 +11,8 @@ const Projects = () => {
 			<div className='container'>
 				<h2 className='title-1'>Projects</h2>
 				<ul className='projects'>
-					<li className='project'>
-						<a href='./project-page.html'>
-							<img src={todoApp} alt='Project img' className='project__img' />
-							<h3 className='project__title'>Todo App</h3>
-						</a>
-					</li>
+					<Project />
+
 					<li className='project'>
 						<a href='./project-page.html'>
 							<img src={shopApp} alt='Project img' className='project__img' />
