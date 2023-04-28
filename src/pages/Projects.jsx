@@ -1,43 +1,22 @@
-import shopApp from './../img/projects/shop-app.png'
-import quizGame from './../img/projects/quiz-game.png'
-import colourApp from './../img/projects/colour-app.png'
-import slider from './../img/projects/slider.png'
-import cards from './../img/projects/cards.png'
 import Project from '../components/Project/Project'
 
+import { projects } from './../helpers/ProjectsList'
+
 const Projects = () => {
+	function getId() {
+		return '_' + Math.random().toString(36).substring(2, 9)
+	}
+
 	return (
 		<main className='section'>
 			<div className='container'>
 				<h2 className='title-1'>Projects</h2>
 				<ul className='projects'>
-					<Project />
-
-					<li className='project'>
-						<a href='./project-page.html'>
-							<img src={shopApp} alt='Project img' className='project__img' />
-							<h3 className='project__title'>Shop App</h3>
-						</a>
-					</li>
-					<li className='project'>
-						<a href='./project-page.html'>
-							<img src={quizGame} alt='Project img' className='project__img' />
-							<h3 className='project__title'>Quiz Game</h3>
-						</a>
-					</li>
-
-					<li className='project'>
-						<img src={colourApp} alt='Project img' className='project__img' />
-						<h3 className='project__title'>Colour App</h3>
-					</li>
-					<li className='project'>
-						<img src={slider} alt='Project img' className='project__img' />
-						<h3 className='project__title'>Slider</h3>
-					</li>
-					<li className='project'>
-						<img src={cards} alt='Project img' className='project__img' />
-						<h3 className='project__title'>Cards</h3>
-					</li>
+					{projects.map(project => {
+						return (
+							<Project title={project.title} img={project.img} key={getId()} />
+						)
+					})}
 				</ul>
 			</div>
 		</main>

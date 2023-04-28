@@ -50,3 +50,5 @@ const projects = [
 			'https://pavelliashkevich.github.io/mini-course/01-cards-sources/',
 	},
 ]
+
+export { projects }
