@@ -8,35 +8,35 @@ import cards from './../img/projects/cards.png'
 const projects = [
 	{
 		title: 'Todo App',
-		skills: 'React',
+		skills: 'HTML, SCSS, JavaScript, React (Deploy on Render)',
 		img: todoApp,
 		gitHubLink: 'https://todoapp-server-n5dm.onrender.com',
 	},
 
 	{
 		title: 'Shop App',
-		skills: 'React',
+		skills: 'HTML, CSS, JavaScript, React and Redux',
 		img: shopApp,
 		gitHubLink: 'https://73b0cf20.teach-me-skills-thesis-project.pages.dev/',
 	},
 
 	{
 		title: 'Quiz Game',
-		skills: 'JS',
+		skills: 'HTML, CSS, JavaScript',
 		img: quizGame,
 		gitHubLink: 'https://pavelliashkevich.github.io/quiz-game/',
 	},
 
 	{
 		title: 'Colour App',
-		skills: 'JS',
+		skills: 'HTML, CSS, JavaScript',
 		img: colourApp,
 		gitHubLink: 'https://pavelliashkevich.github.io/colours-app/',
 	},
 
 	{
 		title: 'Slider',
-		skills: 'JS',
+		skills: 'HTML, CSS, JavaScript',
 		img: slider,
 		gitHubLink:
 			'https://pavelliashkevich.github.io/mini-course/03-slider-sources/',
@@ -44,7 +44,7 @@ const projects = [
 
 	{
 		title: 'Cards',
-		skills: 'JS',
+		skills: 'HTML, CSS, JavaScript',
 		img: cards,
 		gitHubLink:
 			'https://pavelliashkevich.github.io/mini-course/01-cards-sources/',

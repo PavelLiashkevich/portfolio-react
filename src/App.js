@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Footer from './components/Footer/Footer'
 import Projects from './pages/Projects'
 import Contacts from './pages/Contacts'
+import Project from './pages/Project'
 
 function App() {
 	return (
@@ -13,7 +14,9 @@ function App() {
 
 			{/*<Home />*/}
 
-			<Projects />
+			{/*<Projects />*/}
+
+			<Project />
 
 			{/*<Contacts />*/}
 
