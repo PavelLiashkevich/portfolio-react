@@ -3,7 +3,7 @@ import gitHub from './gitHub-black.svg'
 
 const ButtonGitHub = ({ link }) => {
 	return (
-		<a href={link} target='_blank' class='btn-outline'>
+		<a href={link} target='_blank' className='btn-outline'>
 			<img src={gitHub} alt='Icon GitHub' />
 			GitHub repo
 		</a>
