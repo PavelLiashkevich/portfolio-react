@@ -1,7 +1,5 @@
 import './project.css'
 
-import todoApp from '../../img/projects/todo-app.png'
-
 const Project = ({ title, img }) => {
 	return (
 		<li className='project'>

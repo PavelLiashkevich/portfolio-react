@@ -1,24 +1,29 @@
-import img from './../img/projects/todo-app.png'
+import { useParams } from 'react-router-dom'
+
 import ButtonGitHub from '../components/ButtonGitHub/ButtonGitHub'
+import { projects } from '../helpers/ProjectsList'
 
 const Project = () => {
+	const { id } = useParams()
+	const project = projects[id]
+
 	return (
 		<main className='section'>
 			<div className='container'>
 				<div className='project-details'>
-					<h1 className='title-1'>Video service</h1>
+					<h1 className='title-1'>{project.title}</h1>
 
 					<img
-						src={img}
-						alt='Project Image'
+						src={project.img}
+						alt={projects.title}
 						className='project-details__cover'
 					/>
 
 					<div className='project-details__desc'>
-						<p>Skills: React, Node.js, MongoDB</p>
+						<p>Skills: {project.skills}</p>
 					</div>
 
-					<ButtonGitHub link='https://github.com' />
+					<ButtonGitHub link={project.gitHubLink} target='_blank' />
 				</div>
 			</div>
 		</main>

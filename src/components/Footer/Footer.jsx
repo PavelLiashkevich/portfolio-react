@@ -10,12 +10,15 @@ const Footer = () => {
 				<div className='footer__wrapper'>
 					<ul className='social'>
 						<li className='social__item'>
-							<a href='#!'>
+							<a href='https://github.com/PavelLiashkevich' target='_blank'>
 								<img src={gitHub} alt='Link' />
 							</a>
 						</li>
 						<li className='social__item'>
-							<a href='#!'>
+							<a
+								href='https://www.linkedin.com/in/pavel-liashkevich/'
+								target='_blank'
+							>
 								<img src={linkedIn} alt='Link' />
 							</a>
 						</li>
