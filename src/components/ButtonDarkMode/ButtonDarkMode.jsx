@@ -8,10 +8,14 @@ import moon from './moon.svg'
 import './ButtonDarkMode.css'
 
 const ButtonDarkMode = () => {
+	// Использование кастомного хука 'useLocalStorage'
 	const [darkMode, setDarkMode] = useLocalStorage('darkMode', detectDarkMode())
 
+	// Ссылка на кнопку, которая переключает тему
 	const btnRef = useRef(null)
 
+	// Добавление/удаление кнопке класса 'active', а также добавление/удаление класса 'dark'
+	// Срабатывает на старте и при любом изменении 'darkMode'
 	useEffect(() => {
 		if (darkMode === 'dark') {
 			document.body.classList.add('dark')
@@ -22,6 +26,7 @@ const ButtonDarkMode = () => {
 		}
 	}, [darkMode])
 
+	// Переключение темы ( светлая / темная )
 	const toggleDarkMode = () => {
 		setDarkMode(currentValue => {
 			return currentValue === 'light' ? 'dark' : 'light'

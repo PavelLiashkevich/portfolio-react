@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
 
+// Хук, сохраняющий данные в LocalStorage
+
 function getStorageValue(key, defaultValue) {
 	// getting stored value
 	const saved = localStorage.getItem(key)

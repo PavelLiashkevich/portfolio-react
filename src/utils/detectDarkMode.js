@@ -1,3 +1,5 @@
+// Определение темы в системе
+
 const detectDarkMode = () => {
 	if (
 		window.matchMedia &&
