@@ -4,6 +4,8 @@ import quizGame from './../img/projects/quiz-game.png'
 import colourApp from './../img/projects/colour-app.png'
 import slider from './../img/projects/slider.png'
 import cards from './../img/projects/cards.png'
+import cozy from './../img/projects/cozy.png'
+import game from './../img/projects/game.png'
 
 const projects = [
 	{
@@ -48,6 +50,22 @@ const projects = [
 		img: cards,
 		gitHubLink:
 			'https://pavelliashkevich.github.io/mini-course/01-cards-sources/',
+	},
+
+	{
+		title: 'Game',
+		skills: 'HTML, CSS, JavaScript',
+		img: game,
+		gitHubLink:
+			'https://pavelliashkevich.github.io/mini-course/05-aim-game-sources/',
+	},
+
+	{
+		title: 'Cozy House',
+		skills: 'HTML, CSS, JavaScript',
+		img: cozy,
+		gitHubLink:
+			'https://pavelliashkevich.github.io/cosy-house_project/shelter/pages/main/index.html',
 	},
 ]
 
