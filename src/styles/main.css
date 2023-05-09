@@ -1,13 +1,12 @@
 @import './reset.css';
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
 
 :root {
 	/* Colors */
-	--blackpure: #000;
-	--black: #171718;
-	--black-border: #26292d;
+	--black: #000000;
+	--black-border: #808080;
 	--white: #fff;
-	--purple: #5c62ec;
+	--purple: #366e8b;
 
 	/* Nav */
 	--nav-bg: var(--black);
@@ -35,7 +34,6 @@
 
 .dark {
 	/* Dark mode */
-	--page-bg: #252526;
 	--text-color: var(--white);
 
 	--title-1: var(--white);
@@ -43,13 +41,15 @@
 	--project-card-bg: var(--black);
 	--project-card-text: var(--white);
 	--box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
+
+	background: -webkit-linear-gradient(360deg, #000000, #380422, #57003c);
 }
 
 html,
 body {
 	min-height: 100vh;
 
-	font-family: 'DM Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	letter-spacing: -0.5px;
 
 	/* Light mode */
@@ -80,7 +80,7 @@ body {
 }
 
 .section {
-	padding: 70px 0;
+	padding: 85px 0;
 }
 
 .title-1 {

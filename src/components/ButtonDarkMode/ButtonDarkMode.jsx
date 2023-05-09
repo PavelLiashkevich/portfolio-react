@@ -29,7 +29,7 @@ const ButtonDarkMode = () => {
 	}
 
 	const btnNormal = 'dark-mode-btn'
-	const btnActive = 'dark-mode-btn--active'
+	const btnActive = 'dark-mode-btn dark-mode-btn--active'
 
 	return (
 		<button

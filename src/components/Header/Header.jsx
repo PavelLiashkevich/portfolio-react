@@ -1,4 +1,5 @@
 import './header.css'
+import cv from '../../helpers/CV-PavelLiashkevich.pdf'
 
 const Header = () => {
 	return (
@@ -8,12 +9,13 @@ const Header = () => {
 					<strong>
 						Hi, my name is <em>Pavel</em>
 					</strong>
-					<br />a frontend developer
+					<br />
+					I'm a frontend developer
 				</h1>
 				<div className='header__text'>
 					<p>with passion for learning and creating.</p>
 				</div>
-				<a href='#!' className='btn'>
+				<a href={cv} className='btn' download>
 					Download CV
 				</a>
 			</div>
