@@ -13,6 +13,6 @@ The repository includes a project using HTML, CSS, JavaScript, React (Deploy on 
 
 <div align="center">
 <sub>Portfolio App. Coded by 
-  <a href="https://www.linkedin.com/in/pavel-liashkevich/" target='_blank'>PL</a>
+  <a href="https://www.linkedin.com/in/pavel-liashkevich/" target="_blank">PL</a>
   </a>
 </div>
