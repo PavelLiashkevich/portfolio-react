@@ -1,3 +1,4 @@
+import todo from './../img/projects/todo.jpg'
 import todoApp from './../img/projects/todo-app.png'
 import shopApp from './../img/projects/shop-app.png'
 import quizGame from './../img/projects/quiz-game.png'
@@ -7,17 +8,24 @@ import cards from './../img/projects/cards.png'
 import cozy from './../img/projects/cozy.png'
 import game from './../img/projects/game.png'
 
-const projects = [
+export const projects = [
+	{
+		title: 'Todo',
+		skills: 'TypeScript, React, Redux, Redux Thunk, Redux Toolkit, Rest API, Storybook, Snapshot, Styled Components, Material UI (Deploy on Netlify)',
+		img: todo,
+		gitHubLink: 'https://github.com/PavelLiashkevich/todo-app-two',
+	},
+
 	{
 		title: 'Todo App',
-		skills: 'HTML, SCSS, JavaScript, React (Deploy on Render)',
+		skills: 'JavaScript, React, HTML, SCSS (Deploy on Render)',
 		img: todoApp,
 		gitHubLink: 'https://todoapp-server-n5dm.onrender.com',
 	},
 
 	{
 		title: 'Shop App',
-		skills: 'HTML, CSS, JavaScript, React and Redux',
+		skills: 'JavaScript, React, Redux, HTML, CSS',
 		img: shopApp,
 		gitHubLink: 'https://73b0cf20.teach-me-skills-thesis-project.pages.dev/',
 	},
@@ -67,6 +75,4 @@ const projects = [
 		gitHubLink:
 			'https://pavelliashkevich.github.io/cosy-house_project/shelter/pages/main/index.html',
 	},
-]
-
-export { projects }
+] 
