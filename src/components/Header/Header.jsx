@@ -1,5 +1,5 @@
 import './header.css'
-import cv from '../../helpers/CV-PavelLiashkevich.pdf'
+import cv from '../../helpers/CV-Pavel-Liashkevich.pdf'
 
 const Header = () => {
 	return (
