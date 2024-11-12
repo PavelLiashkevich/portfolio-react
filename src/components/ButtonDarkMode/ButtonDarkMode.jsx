@@ -1,3 +1,4 @@
+import './ButtonDarkMode.css'
 import { useEffect } from 'react'
 import { useLocalStorage } from '../../utils/useLocalSorage'
 import detectDarkMode from '../../utils/detectDarkMode'
@@ -5,7 +6,6 @@ import detectDarkMode from '../../utils/detectDarkMode'
 import sun from './sun.svg'
 import moon from './moon.svg'
 
-import './ButtonDarkMode.css'
 
 const ButtonDarkMode = () => {
 	// Использование кастомного хука 'useLocalStorage'
